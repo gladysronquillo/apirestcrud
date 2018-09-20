@@ -19,6 +19,7 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        //
+        'http://192.168.99.100:8001/apirestcrud/public/movies',
+        'http://192.168.99.100:8001/apirestcrud/public/movies/*',
     ];
 }
